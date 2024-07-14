@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* common style*/
+.btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 20px 5px 0;
+
+}
+
+.bg-primary {
+    background-color: #FFF8F3;
+}
+
+.primary-description-big {
+    color: #757575;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 0px;
+}
+
+.primary-description-small {
+    color: #757575;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 16px 0px;
+
+
+}
+
+/* header & nav styles */
+header {
+    /* height: 820px; */
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+nav .nav-brand {
+    font-size: 45px;
+    font-weight: 900;
+
+}
+
+nav .nav-brand span {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+
+/* banner-section style */
+.banner-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 70%;
+}
+
+.banner-content .subtitle {
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.banner-content .title {
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+.banner-content .title {
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+/* about us section styles */
+.about-section {
+    width: 1040px;
+    height: 420px;
+    margin: 140px auto;
+    padding: 30px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.about-contents {
+    /* styles for itself */
+    width: 80%;
+    background-color: white;
+    padding: 15px;
+    /* styles for it's children */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+
+.about-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info .about-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-data .data-heading {
+    font-size: 16px;
+    color: #757575;
+    line-height: 10px;
+    padding: 8px 0px;
+
+
+}
+
+.about-data .data-value {
+    font-size: 16px;
+    color: black;
+    line-height: 10px;
+    padding: 8px 0px;
+
+}
+
+
+/* skills section styles */
+.skills-section {
+    width: 1040px;
+    margin: 120px auto;
+    padding: 50px;
+    /* border: 2px solid red; */
+
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+
+}
+
+.skills-container .skills-desc {
+    width: 80%;
+    text-align: center;
+}
+
+.skills-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills-cards .skill-card {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 20px #c4c4c4;
+    /* styles for is's childs */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    gap: 15px;
+
+}
+
+.skill-card .skill-img {
+    width: 44px;
+    height: 44px;
+
+}
+
+/* Resume section styles */
+.resume-section {
+    /* border: 2px solid red; */
+    width: 1040px;
+    margin: 100px auto;
+
+}
+
+.resume-container {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.resume-content {
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 50px;
+}
+
+.resume-content .resume-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.resume-column .resume-info {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+
+/* footer styles */
+.footer-section {
+    height: 520px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-container {
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+
+
+}
+
+.footer-column {
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px;
+
+}
+
+.footer-column form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+}
+
+form .form-data input,
+textarea {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border: 10px;
+}
+
+/* Responsive Design Start Here */
+.hide {
+    display: none;
+}
+
+/*Responsive Header & banner section */
+ /* For smalls screen or device */
+ @media screen and (max-width: 576px){
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px 0px;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 10px;
+    }
+    nav ul li{
+        font-size: 26px;
+    }
+    .btn-primary{
+        margin: auto;
+    }
+    /* banner section start here */
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        margin-top: 70px;
+    }
+    
+    .banner-column {
+        width: 100%;
+    }
+    .banner-column img{
+        width: 100%;
+        margin-right: 10%;
+    }
+    
+    .banner-content {
+        width: 90%;
+        margin: auto;
+    }
+
+ }
+
+ @media screen and (min-width: 576px) and (max-width: 992px){
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px 0px;
+    }
+    
+    nav ul {
+        display: flex;
+        gap: 20px;
+        margin-top: 10px;
+    }
+    /* banner-section start */
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+        margin-top: 70px;
+    }
+    
+    .banner-column {
+        width: 100%;
+    }
+    .banner-column img{
+        width: 80%;
+        margin-right: 15%;
+    }
+    
+    .banner-content {
+        width: 90%;
+        margin: auto;
+    }
+ }
+ /* For medium screen or device */
+
+
+/* Skills section responsive */
+/* Small or mobile device */
+@media screen and (max-width:576px) {
+    .skills-cards {
+        flex-direction: column;
+    }
+
+    .skills-section {
+        width: 100%;
+        padding: 0px;
+
+    }
+}
+
+/* Medium device */
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .skills-cards {
+        flex-direction: column;
+    }
+
+    .skills-section {
+        width: 100%;
+        padding: 0px;
+
+    }
+}
+
+/* Responsive Resume Section */
+/* Design for small Device */
+
+@media screen and (max-width: 576px) {
+    .resume-section {
+        width: 100%;
+    }
+
+    .resume-container {
+        margin: 30px;
+
+    }
+
+    .resume-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+/* Design for medium Device */
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .resume-section {
+        width: 100%;
+    }
+
+    .resume-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+/* Responsive About-us section */
+/* For small devices */
+@media screen and (max-width: 576px) {
+    .about-section {
+        width: 100%;
+        padding: 0px;
+
+    }
+    .about-contents {
+        width: 100%;
+        padding: 20px 0px;
+        background-color: #FFF8F3;
+        
+    }
+    .about-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-description {
+        text-align: center;
+    }
+
+    .about-info .about-data {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .about-section {
+        width: 100%;
+        padding: 0px;
+
+    }
+    .about-contents {
+        width: 100%;
+        padding: 20px 0px;
+        background-color: #FFF8F3;
+        
+    }
+    .about-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-description {
+        text-align: center;
+    }
+
+    .about-info .about-data {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+}
+
+/* Responsive footer section */
+  /* For small screen or device */
+@media screen and (max-width: 576px){
+  
+.footer-section {
+    height: auto;
+}
+
+.footer-container {
+    width: 100%;
+    flex-direction: column;
+    margin: 40px 30px;
+
+
+}
+.footer-column {
+    padding: 5px;
+}
+
+}
+
+  /* For medium screen or device */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .footer-section {
+        height: auto;
+    }
+    
+    .footer-container {
+        width: 80%;
+        flex-direction: column;
+        margin: 40px 30px;
+    
+    
+    }
+    .footer-column {
+        padding: 5px;
+    }
+    
+}
+
+/* Footer responsive done */
